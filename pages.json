@@ -1,0 +1,153 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/plugins/uview-ui/components/u-$1/u-$1.vue",
+			"^liyue-(.*)": "@/components/liyue-$1.vue"
+		}
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/member/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/fete/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/my/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "sub-pages-other",
+		"pages": [{
+			"path": "network/error",
+			"style": {
+				"navigationBarTitleText": "网络错误"
+			}
+		},
+		{
+			"path" : "liyue-video/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "authorize/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "web-view/web-view",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}]
+	},
+	{
+		"root": "person",
+		"pages": [{
+			"path" : "address/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	},
+	{
+		"root": "order",
+		"pages": []
+	},
+	{
+		"root": "shop",
+		"pages": [{
+			"path" : "town-god-text/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "create-order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	}],
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "#fff",
+		"borderStyle": "black",
+		"backgroundColor": "#000",
+		"height": "98rpx",
+		"fontSize": "20rpx",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tabbar/jin.png",
+			"selectedIconPath": "static/images/tabbar/jin.png",
+			"text": "首页"
+		}, 
+		{
+			"pagePath": "pages/member/index",
+			"iconPath": "static/images/tabbar/mu.png",
+			"selectedIconPath": "static/images/tabbar/mu.png",
+			"text": "会员"
+		},
+		{
+			"pagePath": "pages/fete/index",
+			"iconPath": "static/images/tabbar/tu.png",
+			"selectedIconPath": "static/images/tabbar/tu.png",
+			"text": "祭祀"
+		},
+		{
+			"pagePath": "pages/order/index",
+			"iconPath": "static/images/tabbar/huo.png",
+			"selectedIconPath": "static/images/tabbar/huo.png",
+			"text": "订单"
+		},
+		{
+			"pagePath": "pages/my/index",
+			"iconPath": "static/images/tabbar/shui.png",
+			"selectedIconPath": "static/images/tabbar/shui.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {}
+}

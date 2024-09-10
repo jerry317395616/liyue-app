@@ -1,0 +1,584 @@
+
+page {
+	background-color: #f1f1f1;
+}
+
+view{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+input,textarea{
+	width: 100%;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 30rpx;
+	box-sizing: border-box;
+	border: none;
+}
+
+image{
+	width: 100%;
+	height: 100%;
+	display:block;
+	vertical-align: top;
+}
+
+view::-webkit-scrollbar{
+	display: none;
+}
+
+[class*="gy_icon_"] {
+  font-family: "iconfont" !important;
+  font-size: 28rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================ padding 内边距 ============================ */
+.padding_xs {
+	padding: 10rpx;
+}
+
+.padding_sm {
+	padding: 20rpx;
+}
+
+.padding_lg {
+	padding: 30rpx;
+}
+
+.padding_xl {
+	padding: 40rpx;
+}
+
+.padding_xxl {
+	padding: 50rpx;
+}
+
+.padding_lr_xs {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+
+.padding_lr_sm {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+
+.padding_lr_lg {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+
+.padding_lr_xl {
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+}
+
+.padding_lr_xxl {
+	padding-left: 50rpx;
+	padding-right: 50rpx;
+}
+
+.padding_tb_xs {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.padding_tb_sm {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+
+.padding_tb_lg {
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+
+.padding_tb_xl {
+	padding-top: 40rpx;
+	padding-bottom: 40rpx;
+}
+
+.padding_tb_xxl {
+	padding-top: 50rpx;
+	padding-bottom: 50rpx;
+}
+
+.padding_t_xs {
+	padding-top: 10rpx;
+}
+
+.padding_t_sm {
+	padding-top: 20rpx;
+}
+
+.padding_t_lg {
+	padding-top: 30rpx;
+}
+
+.padding_t_xl {
+	padding-top: 40rpx;
+}
+
+.padding_t_xxl {
+	padding-top: 50rpx;
+}
+
+.padding_r_xs {
+	padding-right: 10rpx;
+}
+
+.padding_r_sm {
+	padding-right: 20rpx;
+}
+
+.padding_r_lg {
+	padding-right: 30rpx;
+}
+
+.padding_r_xl {
+	padding-right: 40rpx;
+}
+
+.padding_r_xxl {
+	padding-right: 50rpx;
+}
+
+.padding_b_xs {
+	padding-bottom: 10rpx;
+}
+
+.padding_b_sm {
+	padding-bottom: 20rpx;
+}
+
+.padding_b_lg {
+	padding-bottom: 30rpx;
+}
+
+.padding_b_xl {
+	padding-bottom: 40rpx;
+}
+
+.padding_b_xxl {
+	padding-bottom: 50rpx;
+}
+
+.padding_l_xs {
+	padding-left: 10rpx;
+}
+
+.padding_l_sm {
+	padding-left: 20rpx;
+}
+
+.padding_l_lg {
+	padding-left: 30rpx;
+}
+
+.padding_l_xl {
+	padding-left: 40rpx;
+}
+
+.padding_l_xxl {
+	padding-left: 50rpx;
+}
+
+/* ============================ margin 外边距 ============================ */
+.margin_xs {
+	margin: 10rpx;
+}
+
+.margin_sm {
+	margin: 20rpx;
+}
+
+.margin_lg {
+	margin: 30rpx;
+}
+
+.margin_xl {
+	margin: 40rpx;
+}
+
+.margin_xxl {
+	margin: 50rpx;
+}
+
+.margin_lr_xs {
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+
+.margin_lr_sm {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+
+.margin_lr_lg {
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+
+.margin_lr_xl {
+	margin-left: 40rpx;
+	margin-right: 40rpx;
+}
+
+.margin_lr_xxl {
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+}
+
+.margin_tb_xs {
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+}
+
+.margin_tb_sm {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+
+.margin_tb_lg {
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+}
+
+.margin_tb_xl {
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+
+.margin_tb_xxl {
+	margin-top: 50rpx;
+	margin-bottom: 50rpx;
+}
+
+.margin_t_xs {
+	margin-top: 10rpx;
+}
+
+.margin_t_sm {
+	margin-top: 20rpx;
+}
+
+.margin_t_lg {
+	margin-top: 30rpx;
+}
+
+.margin_t_xl {
+	margin-top: 40rpx;
+}
+
+.margin_t_xxl {
+	margin-top: 50rpx;
+}
+
+.margin_r_xs {
+	margin-right: 10rpx;
+}
+
+.margin_r_sm {
+	margin-right: 20rpx;
+}
+
+.margin_r_lg {
+	margin-right: 30rpx;
+}
+
+.margin_r_xl {
+	margin-right: 40rpx;
+}
+
+.margin_r_xxl {
+	margin-right: 50rpx;
+}
+
+.margin_b_xs {
+	margin-bottom: 10rpx;
+}
+
+.margin_b_sm {
+	margin-bottom: 20rpx;
+}
+
+.margin_b_lg {
+	margin-bottom: 30rpx;
+}
+
+.margin_b_xl {
+	margin-bottom: 40rpx;
+}
+
+.margin_b_xxl {
+	margin-bottom: 50rpx;
+}
+
+.margin_l_xs {
+	margin-left: 10rpx;
+}
+
+.margin_l_sm {
+	margin-left: 20rpx;
+}
+
+.margin_l_lg {
+	margin-left: 30rpx;
+}
+
+.margin_l_xl {
+	margin-left: 40rpx;
+}
+
+.margin_l_xxl {
+	margin-left: 50rpx;
+}
+
+/* ============================ font_size 字体大小 ============================ */
+.text_xs {
+	font-size: 24rpx;
+}
+
+.text_sm {
+	font-size: 28rpx;
+}
+
+.text_lg {
+	font-size: 32rpx;
+}
+
+.text_xl {
+	font-size: 36rpx;
+}
+
+.text_xxl {
+	font-size: 40rpx;
+}
+
+/* ============================ text-align 字体对齐 ============================ */
+.text_left {
+	text-align: left;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_end {
+	text-align: end;
+}
+
+/* ============================ flex 弹性布局 ============================ */
+[class*="flex"] {
+	display: flex;
+}
+
+[class*="flex_start"] {
+	justify-content: flex-start;
+}
+
+[class*="flex_center"] {
+	justify-content: center;
+}
+
+[class*="flex_between"] {
+	justify-content: space-between;
+}
+
+[class*="flex_end"] {
+	justify-content: flex-end;
+}
+
+[class*="_start"] {
+	align-items: flex-start;
+}
+[class*="_center"] {
+	align-items: center;
+}
+[class*="_column"] {
+	flex-direction: column;
+}
+
+[class*="_wrap"] {
+	flex-wrap: wrap;
+}
+
+
+/* ============================ background-color 背景颜色 ============================ */
+.bg_white {
+	background-color: #FFFFFF;
+	color: #333333;
+}
+.bg_page {
+	background-color: #F1F1F1;
+}
+/* ============================ border radius 倒角 ============================ */
+.radius_xs {
+	border-radius: 10rpx;
+}
+
+.radius_sm {
+	border-radius: 20rpx;
+}
+
+.radius_lg {
+	border-radius: 30rpx;
+}
+
+/* ============================ border 边框 ============================ */
+.border {
+	border: 2rpx solid #F1F1F1;
+}
+
+.border_t {
+	border-top: 2rpx solid #F1F1F1;
+}
+
+.border_b {
+	border-bottom: 2rpx solid #F1F1F1;
+}
+
+.border_l {
+	border-left: 2rpx solid #F1F1F1;
+}
+
+.border_r {
+	border-right: 2rpx solid #F1F1F1;
+}
+
+/* ============================ text color 字体颜色 状态颜色 ============================ */
+.text_success {
+	color: #4cd964;
+}
+
+.text_warning {
+	color: #f0ad4e;
+}
+
+.text_error {
+	color: #dd524d;
+}
+
+.text_info {
+	color: #bebebe;
+}
+.text_url {
+	color: #00aaff;
+}
+
+/* ============================ width 尺寸 宽度 ============================ */
+.col1{
+	width: 100%;
+}
+.col2{
+	width: calc(100% / 2);
+}
+.col3{
+	width: calc(100% / 3);
+}
+.col4{
+	width: calc(100% / 4);
+}
+.col5{
+	width: calc(100% / 5);
+}
+
+/* ============================ text 隐藏 ============================ */
+.text_ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.text_ellipsis_row2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;  /* 此处指定行数 */
+	overflow: hidden;
+}
+.text_ellipsis_row3{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;  /* 此处指定行数 */
+	overflow: hidden;
+}
+/* ============================ text 类型 ============================ */
+.text_title1{
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #000000;
+}
+.text_title2{
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.text_words{
+	font-size: 28rpx;
+	color: #666666;
+}
+.text_tips{
+	font-size: 24rpx;
+	color: #999999;
+}
+.text_theme{
+	color: $ec-theme !important;
+}
+.text_placeholder{
+	color: $uni-text-color-placeholder;
+}
+/* ============================ text 加粗 ============================ */
+.text_bold{
+	font-weight: bold;
+}
+/* ============================ z-index 层级 ============================ */
+.z_index1{
+	z-index: 9999;
+}
+
+.z_index2{
+	z-index: 8888;
+}
+
+.z_index3{
+	z-index: 7777;
+}
+
+.z_index4{
+	z-index: 6666;
+}
+
+.z_index5{
+	z-index: 6666;
+}
+/* ============================ background-color 背景 ============================ */
+.bg_theme{
+	background-color: $ec-theme !important;
+	color: #FFFFFF !important;
+}
+.bg_success{
+	background-color: $uni-color-success !important;
+	color: #FFFFFF !important;
+}
+.bg_error{
+	background-color: $uni-color-error !important;
+	color: #FFFFFF !important;
+}
+.bg_warning{
+	background-color: $uni-color-warning !important;
+	color: #FFFFFF !important;
+}
+.bg_info{
+	background-color: $uni-color-info !important;
+	color: #FFFFFF !important;
+}
+/* ============================ height 高度 ============================ */
+.height100{
+	height: 100rpx;
+	line-height: 100rpx;
+}

@@ -1,0 +1,85 @@
+.ec_form_item{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 0 20rpx;
+	min-height: 100rpx;
+	.title_icon{
+		width: 36rpx;
+		height: 36rpx;
+		margin-right: 20rpx;
+	}
+}
+
+.custom_inline_btn{
+	display: inline-block;
+	padding: 8rpx 18rpx;
+	font-size: 24rpx !important;
+	width: auto;
+	background-color: $ec-theme;
+	color: #FFFFFF;
+	border-radius: 30rpx;
+	font-weight: 500;
+}
+
+.custom_block_btn{
+	margin-top: 40rpx;
+	padding: 0 40rpx;
+	width: 100%;
+	view,button{
+		font-size: 32rpx;
+		width: 100%;
+		height: 90rpx;
+		line-height: 90rpx;
+		text-align: center;
+		background-color: $ec-theme;
+		color: #FFFFFF;
+		border-radius: 60rpx;
+	}
+}
+
+.ec_model{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+}
+.ec_model_frames{
+	animation: ec_model .3s;
+	animation-fill-mode: forwards;
+}
+/* 动画代码 */
+@keyframes ec_model {
+  from {background-color: rgba(0,0,0,0);}
+  to {background-color: rgba(0,0,0,0.5);}
+}
+
+
+.placeholder_input{
+	color: #a8a8a8;
+	font-size: 28rpx;
+}
+
+
+
+.gy_model{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 999;
+	animation: gy_keyframes_model .3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes gy_keyframes_model {
+  from {background-color: rgba(0,0,0,0);}
+  to {background-color: rgba(0,0,0,0.6);}
+}
